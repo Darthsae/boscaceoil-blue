@@ -20,16 +20,19 @@ const SCALE_SPANISH_GYPSY      := 10
 const SCALE_ARABIC_MAGAM       := 11
 const SCALE_CHINESE            := 12
 const SCALE_HUNGARIAN          := 13
-const CHORD_MAJOR              := 14
-const CHORD_MINOR              := 15
-const CHORD_5TH                := 16
-const CHORD_DOM_7TH            := 17
-const CHORD_MAJOR_7TH          := 18
-const CHORD_MINOR_7TH          := 19
-const CHORD_MINOR_MAJOR_7TH    := 20
-const CHORD_SUS4               := 21
-const CHORD_SUS2               := 22
-const MAX                      := 23
+const SCALE_PERSIAN            := 14
+const SCALE_PROMETHEUS         := 15
+const SCALE_IN                 := 16
+const CHORD_MAJOR              := 17
+const CHORD_MINOR              := 18
+const CHORD_5TH                := 19
+const CHORD_DOM_7TH            := 20
+const CHORD_MAJOR_7TH          := 21
+const CHORD_MINOR_7TH          := 22
+const CHORD_MINOR_MAJOR_7TH    := 23
+const CHORD_SUS4               := 24
+const CHORD_SUS2               := 25
+const MAX                      := 26
 
 const _scale_name_map := {
 	SCALE_NORMAL:             "Scale: Normal",
@@ -46,6 +49,9 @@ const _scale_name_map := {
 	SCALE_ARABIC_MAGAM:       "Scale: Arabic Magam",
 	SCALE_CHINESE:            "Scale: Chinese",
 	SCALE_HUNGARIAN:          "Scale: Hungarian",
+	SCALE_PERSIAN:            "Scale: Persian",
+	SCALE_PROMETHEUS:         "Scale: Prometheus",
+	SCALE_IN:                 "Scale: In",
 	CHORD_MAJOR:              "Chord: Major",
 	CHORD_MINOR:              "Chord: Minor",
 	CHORD_5TH:                "Chord: 5th",
@@ -72,6 +78,9 @@ const _scale_layout_map := {
 	SCALE_ARABIC_MAGAM:       [ 2, 2, 1, 1, 2, 2, 2 ],
 	SCALE_CHINESE:            [ 4, 2, 1, 4, 1 ],
 	SCALE_HUNGARIAN:          [ 2, 1, 3, 1, 1, 3, 1 ],
+	SCALE_PERSIAN:            [ 1, 3, 1, 1, 2, 3, 1 ],
+	SCALE_PROMETHEUS:         [ 2, 2, 2, 3, 1, 2 ],
+	SCALE_IN:                 [ 1, 4, 2, 1, 4],
 	CHORD_MAJOR:              [ 4, 3, 5 ],
 	CHORD_MINOR:              [ 3, 4, 5 ],
 	CHORD_5TH:                [ 7, 5 ],
